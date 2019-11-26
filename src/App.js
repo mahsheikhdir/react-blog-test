@@ -84,7 +84,7 @@ const Home = () => {
   return (
     <Container>
       
-    <Jumbotron>
+    <Jumbotron style={{marginTop: 10}}>
       <Card.Title>
         Home Page
       </Card.Title>
@@ -105,7 +105,7 @@ const About = () => {
   return (
     <Container>
       
-    <Jumbotron>
+    <Jumbotron style={{marginTop: 10}}>
       <Card.Title>
         About
       </Card.Title>
