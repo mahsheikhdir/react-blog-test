@@ -40,11 +40,16 @@ function loader(condition, content) {
   
     return (
       <ListGroup variant="flush">
-        <ListGroup.Item>Comments</ListGroup.Item>
+        <ListGroup.Item>
+          <h4 style={{fondWeight: 'bold'}}>Comments</h4>
+        </ListGroup.Item>
         {loader(
           comments.length === 0,
           comments.map(comment => (
-            <ListGroup.Item key={comment.id}>{comment.body}</ListGroup.Item>
+            <ListGroup.Item key={comment.id}>
+              <p style={{fontWeight: 'bold'}}>{comment.email}</p>
+              {comment.body}
+              </ListGroup.Item>
           ))
         )}
       </ListGroup>
