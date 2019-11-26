@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-blog/static/css/main.b0411b37.chunk.css",
-    "main.js": "/react-blog/static/js/main.e4bad04d.chunk.js",
-    "main.js.map": "/react-blog/static/js/main.e4bad04d.chunk.js.map",
-    "runtime-main.js": "/react-blog/static/js/runtime-main.0a20e50e.js",
-    "runtime-main.js.map": "/react-blog/static/js/runtime-main.0a20e50e.js.map",
-    "static/css/2.b0bb7f2c.chunk.css": "/react-blog/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.49efc578.chunk.js": "/react-blog/static/js/2.49efc578.chunk.js",
-    "static/js/2.49efc578.chunk.js.map": "/react-blog/static/js/2.49efc578.chunk.js.map",
-    "index.html": "/react-blog/index.html",
-    "precache-manifest.bcc017d7e90ffa6e0ede2cdb144e2751.js": "/react-blog/precache-manifest.bcc017d7e90ffa6e0ede2cdb144e2751.js",
-    "service-worker.js": "/react-blog/service-worker.js",
-    "static/css/2.b0bb7f2c.chunk.css.map": "/react-blog/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.b0411b37.chunk.css.map": "/react-blog/static/css/main.b0411b37.chunk.css.map"
+    "main.css": "/react-blog-test/static/css/main.b0411b37.chunk.css",
+    "main.js": "/react-blog-test/static/js/main.761f7740.chunk.js",
+    "main.js.map": "/react-blog-test/static/js/main.761f7740.chunk.js.map",
+    "runtime-main.js": "/react-blog-test/static/js/runtime-main.05dfcdc7.js",
+    "runtime-main.js.map": "/react-blog-test/static/js/runtime-main.05dfcdc7.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/react-blog-test/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.49efc578.chunk.js": "/react-blog-test/static/js/2.49efc578.chunk.js",
+    "static/js/2.49efc578.chunk.js.map": "/react-blog-test/static/js/2.49efc578.chunk.js.map",
+    "index.html": "/react-blog-test/index.html",
+    "precache-manifest.e01cc8e8958626f976d1cfa67085f83c.js": "/react-blog-test/precache-manifest.e01cc8e8958626f976d1cfa67085f83c.js",
+    "service-worker.js": "/react-blog-test/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/react-blog-test/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.b0411b37.chunk.css.map": "/react-blog-test/static/css/main.b0411b37.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a20e50e.js",
+    "static/js/runtime-main.05dfcdc7.js",
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.49efc578.chunk.js",
     "static/css/main.b0411b37.chunk.css",
-    "static/js/main.e4bad04d.chunk.js"
+    "static/js/main.761f7740.chunk.js"
   ]
 }
