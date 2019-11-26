@@ -18,18 +18,24 @@ import {
 
 import {
   BrowserRouter as Router,
+  Link,
   Switch,
   Route,
 } from "react-router-dom";
 
 const MainNav = () => {
+  const styleLink = {textDecoration: 'none', color: 'white'}
   return (
     <Navbar bg="dark" variant="dark">
-      <Navbar.Brand href="/home">Bozo</Navbar.Brand>
+      <Navbar.Brand>
+        <Link to="/home" style={styleLink}>
+        React Blog
+        </Link>
+      </Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="/home">Home</Nav.Link>
-        <Nav.Link href="/posts">All Posts</Nav.Link>
-        <Nav.Link href="/about">About</Nav.Link>
+        <Nav.Link ><Link to="/home" style={styleLink}>Home</Link></Nav.Link>
+        <Nav.Link ><Link to="/posts" style={styleLink}>All Posts</Link></Nav.Link>
+        <Nav.Link ><Link to="/about" style={styleLink}>About</Link></Nav.Link>
       </Nav>
     </Navbar>
   );
