@@ -5,7 +5,7 @@ import {
     Image,
   } from "react-bootstrap";
 
-import Link from "react-router-dom";
+import {Link} from "react-router-dom";
 
 import Comments from "./Comments";
 
@@ -29,10 +29,7 @@ const Post = ({ post, users, imgLink }) => {
         </Card.Header>
         <Card.Body>
             <Image src={imgLink} className="postImg" />
-          <Card.Title>By 
-          <Link to={"/user/" + post.userId}>
-          {name}
-          </Link>
+          <Card.Title>By <Link to={"/user/" + post.userId}>{name}</Link>
           </Card.Title>
           <Card.Text>{post.body}</Card.Text>
           <Button variant="primary">Read more</Button>
