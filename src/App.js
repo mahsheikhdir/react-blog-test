@@ -69,7 +69,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
         <MainNav />
         <Image className="mainImg" src="https://source.unsplash.com/random" />
         
